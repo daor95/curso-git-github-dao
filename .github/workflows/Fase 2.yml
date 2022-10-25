@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-    - name: Have fun
+    - name: Execute Scripts
       run: |
         python execute-me.py
         bash execute-me.sh
